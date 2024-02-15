@@ -31,6 +31,7 @@ ol {
 body {
     font-family: "Ubuntu", sans-serif;
     font-style: normal;
+    color: white;
 }
 
 .ubuntu-regular {
@@ -72,6 +73,10 @@ body {
     flex-wrap: wrap;
 }
 
+.button {
+    border-radius: 999px;
+}
+
 /**************************** 
     STYLE 
 ****************************/
@@ -80,10 +85,14 @@ body {
 
 header {
     background-color: #0084fd;
+    font-size: 20px;
+    font-weight: 300;
 }
 
 header .row {
     justify-content: space-between;
+    align-items: center;
+    padding: 15px 25px;
 }
 
 .navbar-header {
@@ -92,6 +101,17 @@ header .row {
 
 .navbar-header ul{
     display: flex;
+    gap: 0px 35px;
+}
+
+.navbar-header .button {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+}
+
+.hamburger-menu {
+    font-size: 25px;
 }
 
 /* Header media query */
