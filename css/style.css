@@ -313,6 +313,7 @@ header .row {
 .partners {
     color: black;
     margin-top: 65px;
+    margin-bottom: 115px;
 }
 
 .partners .row {
@@ -364,6 +365,64 @@ header .row {
     }
 }
 
+    /* BENEFITS SECTION */
+
+.benefits {
+    background-color: #9792E4;
+    padding-top: 75px;
+}
+
+.benefits .row {
+    padding: 0px 20px
+}
+
+.benefits-title {
+    margin-bottom: 75px;
+    font-size: 32px;
+}
+
+.benefits-card {
+    background-color: white;
+    border-radius: 24px;
+    color: black;
+    padding: 45px 30px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.benefits-card-number {
+    color: #9792E4;
+    font-size: 50px;
+    margin-bottom: 35px;
+}
+
+.benefits-card-title {
+    color: #9792E4;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.benefits-card .button {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #9792E4;
+    color: white;
+    padding: 10px 50px;
+}
+
+    /* BENEFITS Media query */
+
+@media (min-width: 576px) {
+    .benefits-cards {
+        display: flex;
+        flex-wrap: wrap;    
+    }
+
+    .benefits-card {
+        width: 50%
+    }
+}
 
 /**************************** 
     UTILITIES 
