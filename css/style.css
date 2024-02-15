@@ -28,6 +28,36 @@ ol {
 	list-style: none;
 }
 
+body {
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+}
+
+.ubuntu-regular {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.ubuntu-medium {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.ubuntu-bold {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.ubuntu-light {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+
 /**************************** 
     LAYOUT 
 ****************************/
@@ -47,3 +77,33 @@ ol {
 ****************************/
 
 /* Header */
+
+header {
+    background-color: #0084fd;
+}
+
+header .row {
+    justify-content: space-between;
+}
+
+.navbar-header {
+    display: none;
+}
+
+.navbar-header ul{
+    display: flex;
+}
+
+/* Header media query */
+
+@media (min-width: 992px) {
+
+.navbar-header {
+    display: block;
+}
+
+.hamburger-menu {
+    display: none;
+}
+
+}
