@@ -339,10 +339,29 @@ header .row {
 
 [src*="testimonial"] {
     border-radius: 50%;
+    margin-bottom: 25px;
 }
 
 .partner-caption {
     color: white;
+}
+
+.testimonial-name {
+    margin-top: 35px;
+}
+
+    /* PARTNERS Media query */
+
+@media (min-width: 576px) {
+    .partner-card {
+        display: flex;
+        align-items: center;
+    }
+
+    .partner-caption {
+        text-align: start;
+        margin-left: 30px;
+    }
 }
 
 
