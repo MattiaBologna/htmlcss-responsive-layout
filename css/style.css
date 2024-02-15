@@ -245,6 +245,7 @@ header .row {
     border-radius: 24px;
     background-color: white;
     color: black;
+    padding: 0px 15px
 }
 
 .strat-title {
@@ -299,6 +300,49 @@ header .row {
     .strategic-img  {
         width: 50%;
     }
+}
+
+@media (min-width: 610px) and (max-width: 991px) {
+    .strategic-img-txt .strat-title {
+        font-size: 62px;
+    }
+}
+
+    /* PARTNERS SECTION */
+
+.partners {
+    color: black;
+    margin-top: 65px;
+}
+
+.partners .row {
+    padding: 0px 20px;
+}
+
+.partners-head {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.partners-title {
+    margin: 45px;
+    color: #9792E4;
+}
+
+.partner-card {
+    background-color: #9792E4;
+    border-radius: 24px;
+    padding: 30px 15px 50px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+[src*="testimonial"] {
+    border-radius: 50%;
+}
+
+.partner-caption {
+    color: white;
 }
 
 
