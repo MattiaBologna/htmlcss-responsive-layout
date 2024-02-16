@@ -338,7 +338,7 @@ header .row {
 .partner-card {
     background-color: #9792E4;
     border-radius: 24px;
-    padding: 30px 15px 50px;
+    padding: 40px 15px 40px;
     text-align: center;
     margin-bottom: 32px;
 }
@@ -358,6 +358,7 @@ header .row {
 
 .testimonial-name {
     margin-top: 35px;
+    font-weight: 700;
 }
 
     /* PARTNERS Media query */
@@ -371,6 +372,10 @@ header .row {
     .partner-caption {
         text-align: start;
         margin-left: 30px;
+    }
+
+    [src*="testimonial"] {
+        margin-bottom: 0px;
     }
 }
 
