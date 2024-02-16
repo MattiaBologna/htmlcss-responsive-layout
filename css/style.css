@@ -571,6 +571,30 @@ header .row {
 }
 
 
+/* FOOTER */
+
+footer {
+    background-color: #333333;
+    text-align: center;
+    padding: 45px 0px;
+}
+
+footer .container-xsm {
+    padding: 0 30px;
+}
+
+.footer-text {
+    margin-bottom: 70px;
+}
+
+.footer-links a {
+    color: #0084FD;
+    text-decoration: underline;
+}
+
+
+
+
 /**************************** 
     UTILITIES 
 ****************************/
