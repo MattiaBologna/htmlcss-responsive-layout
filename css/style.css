@@ -208,6 +208,7 @@ header .row {
 
 .card-img {
     justify-self: flex-end;
+    transform: translateY(2px);
 }
 
 .card-img img {
@@ -401,7 +402,7 @@ header .row {
 .benefits-title {
     margin-bottom: 75px;
     font-size: 32px;
-    text-align: center;
+    text-align: centerr;
 
 }
 
