@@ -333,6 +333,7 @@ header .row {
 .partners-title {
     margin: 45px;
     color: #9792E4;
+    font-size: 31px;
 }
 
 .partner-card {
@@ -376,6 +377,12 @@ header .row {
 
     [src*="testimonial"] {
         margin-bottom: 0px;
+    }
+}
+
+@media (min-width : 992px) {
+    .partners-title {
+        font-size: 42px;
     }
 }
 
@@ -481,6 +488,7 @@ header .row {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    margin-top: 60px;
 }
 
 .about-us-img img {
@@ -501,6 +509,7 @@ header .row {
     color: white;
     line-height: 35px;
     padding: 0px 15px;
+    font-size: 15px;
 }
 
 .about-us-img .fa-quote-left {
@@ -520,10 +529,22 @@ header .row {
 @media (min-width: 576px) {
     .about-us-txt {
         width: calc(9 * 100% / 12);
+        padding-right: 90px;
     }
 
     .about-us-img {
         width: calc(3 * 100% / 12);
+        margin-top: 0px;
+    }
+
+    .about-us-img .fa-quote-left {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 992px) {
+    .about-us-img .fa-quote-left {
+        font-size: 100px;
     }
 }
 
