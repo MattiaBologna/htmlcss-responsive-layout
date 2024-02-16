@@ -463,8 +463,13 @@ header .row {
     margin-bottom: 75px;
 }
 
+.about-us-img {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
 .about-us-img img {
-    margin-top: 60px;
     margin-bottom: 35px;
     border-radius: 50%;
 }
@@ -484,6 +489,16 @@ header .row {
     padding: 0px 15px;
 }
 
+.about-us-img .fa-quote-left {
+    color: #0084FD;
+    font-size: 100px;
+    position: absolute;
+    right: 0px;
+}
+
+.about-us-img {
+    position: relative;
+}
 
 
     /* ABOUT US Media query */
