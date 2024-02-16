@@ -391,6 +391,8 @@ header .row {
     align-items: flex-start;
 }
 
+
+
 .benefits-card-number {
     color: #9792E4;
     font-size: 50px;
@@ -411,6 +413,10 @@ header .row {
     padding: 10px 50px;
 }
 
+.benefits-cards > * {
+    padding: 12px 12px;
+}
+
     /* BENEFITS Media query */
 
 @media (min-width: 576px) {
@@ -419,8 +425,14 @@ header .row {
         flex-wrap: wrap;    
     }
 
-    .benefits-card {
+    .mistake {
         width: 50%
+    }
+}
+
+@media (min-width: 992px) {
+    .mistake {
+        width: calc(4 * 100% / 12);
     }
 }
 
