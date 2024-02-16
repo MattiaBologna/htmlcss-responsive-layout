@@ -454,7 +454,7 @@ header .row {
 }
 
 .about-us-title {
-    color: #0084fd;
+    color: #9792E4;
     font-size: 42px;
     margin-bottom: 60px;
 }
@@ -480,14 +480,14 @@ header .row {
 }
 
 .about-us-img p {
-    color: #0084FD;
+    color: #9792E4;
     font-size: 27px;
     font-weight: 700;
     margin-bottom: 35px;
 }
 
 .about-us-img .button {
-    background-color: #0084FD;
+    background-color: #9792E4;
     border-radius: 999px;
     color: white;
     line-height: 35px;
@@ -495,7 +495,7 @@ header .row {
 }
 
 .about-us-img .fa-quote-left {
-    color: #0084FD;
+    color: #9792E4;
     font-size: 100px;
     position: absolute;
     right: 0px;
@@ -519,6 +519,56 @@ header .row {
 }
 
 
+    /* GET STARTED SECTION  */
+
+.get-started {
+    background-color: #9792E4;
+    padding: 65px 20px;
+}
+
+.get-started .row {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.get-started-title {
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.get-started-slogan {
+    font-size: 27px;
+    font-weight: 900;
+}
+
+.get-started-jumbo {
+    margin: 50px 0px;
+    font-size: 54px;
+    color: #FDC15F;
+}
+
+.get-started-caption {
+    font-size: 17px;
+    line-height: 2em;
+}
+
+.get-started .button {
+    margin: 35px 0px;
+    background-color: white;
+    color: #9792E4;
+    padding: 0px 65px;
+    line-height: 65px;
+}
+
+.copyright a {
+    text-decoration: underline;
+}
+
+.copyright i {
+    font-size: 5px;
+}
 
 
 /**************************** 
