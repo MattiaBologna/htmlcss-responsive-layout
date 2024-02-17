@@ -289,14 +289,13 @@ header .row {
     margin-bottom: 35px;
 }
 
-.strategic-img i {
+.strat-button {
     margin-bottom: 30px;
     background-color: #9792E4;
     color: black;
     border-radius: 9999px;
     padding: 10px 12px;
 }
-
 
 
     /* STRATEGIC media query */
@@ -509,7 +508,6 @@ header .row {
 
 .about-us-img .button {
     background-color: #9792E4;
-    border-radius: 999px;
     color: white;
     line-height: 35px;
     padding: 0px 15px;
@@ -626,8 +624,73 @@ footer .container-xsm {
     text-decoration: underline;
 }
 
+/**************************** 
+    FEATURES
+****************************/
 
 
+.button:hover,
+a:hover {
+    font-weight: 700;
+    animation: smoothBold 0.3s ease ;
+}
+
+@keyframes smoothBold {
+    0% {
+        font-weight: 400;
+    }
+    100% {
+        font-weight: 700;
+    }
+}
+
+.hero {
+    animation: slideInLeft 1s ease;
+}
+
+@keyframes slideInLeft {
+    0%{
+        transform: translateX(-500px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+.strat-button:hover {
+    background-color: black;
+    color: #9792E4;
+    animation: smoothBg 0.3s;
+}
+
+@keyframes smoothBg {
+    0% {
+        background-color: #9792E4;
+    }
+    100% {
+        background-color: black;
+        color: #9792E4;
+    }
+}
+
+.get-started-jumbo {
+    animation: pulse 1s ease infinite;
+    line-height: 58px;
+}
+
+@keyframes pulse {
+    0% {
+        font-size: 54px;
+    }
+    50%{
+        font-size: 58px;
+    }
+    100%{
+        font-size: 54px;
+    }
+}
 
 /**************************** 
     UTILITIES 
